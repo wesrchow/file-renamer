@@ -4,7 +4,7 @@ import os
 
 folder_files = os.listdir()  # get list of files in working dir
 
-for file in folder_files:  # go through each file
+for file in folder_files:  # go through each file/folder in the directory
     if os.path.isfile(file):  # check if 'file' is a file (not folder)
         if not file == os.path.basename(__file__):  # check if 'file' is this script
             file_rename = file.replace("_", " ").title()  # replace underscores with spaces & capitalize first char of words
