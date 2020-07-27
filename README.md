@@ -6,7 +6,6 @@ This is a collection of Python scripts that converts other files in the working 
 
 #### Conversions Currently Supported
 * **Snake Case to Regular Naming:** `example_file.txt > Example File.txt`
-<br/>
 * **Regular Naming to Capital Snake Case:** `Example File.txt > Example_File.txt`
 <br/>
 
